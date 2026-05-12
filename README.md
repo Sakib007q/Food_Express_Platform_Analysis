@@ -41,7 +41,7 @@ This report presents a comprehensive statistical analysis of FoodExpress deliver
 
 ### 2.1 Orders per Cuisine Type
 
-![Orders per Cuisine Type](images/Orders per cuisine type.png)
+![Orders per Cuisine Type](images/Orders_per_cuisine_type.png)
 
 Indian cuisine leads with the highest order volume (~150 orders), followed closely by Japanese and Fast Food. American and Chinese cuisines record the lowest volumes, indicating potential gaps in demand or visibility. Italian cuisine delivers the highest average order value, while American cuisine records the lowest, suggesting possible over-discounting or reduced basket sizes.
 
@@ -71,7 +71,7 @@ The Q-Q plot reveals a clear deviation from the normal distribution line, with h
 
 ### 3.3 One-Sample T-Test — North Zone Delivery Time
 
-![KDE Plot of Delivery Time (North Zone)](images/kde_for_deliveryTime_north_.png)
+![KDE Plot of Delivery Time (North Zone)](images/kde_for_deliveryTime_North.png)
 
 Delivery times in the North Zone are heavily concentrated between **30–40 minutes**, though a secondary peak around 100 minutes reveals a subset of severely delayed orders. The bimodal KDE shape indicates two distinct delivery behavior clusters — efficient deliveries and significantly delayed ones — suggesting inconsistent routing or restaurant preparation times.
 
@@ -107,7 +107,7 @@ VIP customers drive the majority of demand at **52.7%**, making them the critica
 
 ### 4.2 T-Test — VIP vs. Regular Customer Ratings
 
-![Rating Distribution: VIP vs Regular Customers](images/ratingdistribution__vip_vs_regular.png)
+![Rating Distribution: VIP vs Regular Customers](images/ratingdistribution_vip_vs_regular.png)
 
 Both VIP and Regular customers show nearly identical rating distributions, with medians around **3.9** and similar IQRs (3.5–4.3). The independent samples t-test result (p > 0.05) confirms no statistically significant difference, indicating the current VIP membership is not delivering a meaningfully better experience.
 
