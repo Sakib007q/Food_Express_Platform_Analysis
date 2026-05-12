@@ -41,7 +41,7 @@ This report presents a comprehensive statistical analysis of FoodExpress deliver
 
 ### 2.1 Orders per Cuisine Type
 
-![Orders per Cuisine Type](images/Orders_per_cuisine_type.png)
+![Orders per Cuisine Type](images/Orders per cuisine type.png)
 
 Indian cuisine leads with the highest order volume (~150 orders), followed closely by Japanese and Fast Food. American and Chinese cuisines record the lowest volumes, indicating potential gaps in demand or visibility. Italian cuisine delivers the highest average order value, while American cuisine records the lowest, suggesting possible over-discounting or reduced basket sizes.
 
