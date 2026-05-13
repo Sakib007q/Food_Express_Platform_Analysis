@@ -1,18 +1,13 @@
-# 🍔 FoodExpress — Platform Statistical Report
-### Comprehensive Data Analysis & Insights
-**Prepared by:** Sakib Ahmed
-
----
-
-## 📊 Platform Overview
-
-| Metric | Value |
-|---|---|
-| 🍽️ Cuisine Types | 8 |
-| ⏱️ Avg Delivery Time | 42.7 min |
-| 👑 VIP Customer Share | 52.7% |
-| 💰 Net Revenue | 26,961 |
-
+# FoodExpress Platform Statistical Report
+> Comprehensive Data Analysis & Insights | Prepared by **Sakib Ahmed**
+<br>
+ 
+## Platform at a Glance
+ 
+```
+🍽️  8 Cuisine Types        ⏱️  42.7 min Avg Delivery       👑  52.7% VIP Share        💰  26,961 Net Revenue
+```
+ 
 ---
 
 ## 1. Executive Summary
@@ -35,7 +30,7 @@ This report presents a comprehensive statistical analysis of FoodExpress deliver
 | Microsoft Excel | Initial data review |
 | Microsoft PowerPoint | Presentation & reporting |
 
----
+<br>
 
 ## 2. Cuisine Performance Analysis
 
@@ -47,7 +42,7 @@ Indian cuisine leads with the highest order volume (~150 orders), followed close
 
 **Business Impact:** Upselling strategies for American and Indian cuisines could increase average order value by **10–15%**. Launching premium family packages for Italian cuisine and youth-focused campaigns for Fast Food and Chinese categories can drive stronger repeat purchase rates.
 
----
+<br>
 
 ## 3. Delivery Time Performance
 
@@ -59,7 +54,7 @@ The delivery time distribution is right-skewed with a **mean of 42.69 min** and 
 
 **Business Impact:** Optimizing peak-hour logistics and restaurant coordination may reduce average delivery time by **10–20%**, directly improving customer satisfaction and repeat order rates.
 
----
+<br>
 
 ### 3.2 Normality Check — Q-Q Plot of Delivery Time
 
@@ -67,7 +62,7 @@ The delivery time distribution is right-skewed with a **mean of 42.69 min** and 
 
 The Q-Q plot reveals a clear deviation from the normal distribution line, with heavy clustering at the lower end and a sharp jump near the upper quantiles. This confirms the delivery time data is **non-normally distributed** with right skew and ceiling effects near 100 minutes, validating the use of non-parametric tests for further analysis.
 
----
+<br>
 
 ### 3.3 One-Sample T-Test — North Zone Delivery Time
 
@@ -77,7 +72,7 @@ Delivery times in the North Zone are heavily concentrated between **30–40 minu
 
 **Business Impact:** Splitting the North Zone into smaller delivery clusters and adding peak-hour riders could reduce average delivery time and improve on-time performance by **8–12%**.
 
----
+<br>
 
 ### 3.4 One-Way ANOVA — Delivery Time Across City Zones
 
@@ -87,7 +82,7 @@ Delivery times are broadly similar across all four zones, with medians falling b
 
 **Business Impact:** Increasing delivery fleet allocation in West and North Zones and prioritizing VIP customer routing can reduce variability and strengthen platform reliability across all regions.
 
----
+<br>
 
 ## 4. Customer Segment Analysis
 
@@ -103,7 +98,7 @@ VIP customers drive the majority of demand at **52.7%**, making them the critica
 
 **Business Impact:** Converting a portion of Regular users to VIP can raise customer lifetime value by **5–8%**. Strengthening acquisition campaigns for New customers may expand total order volume by **4–6%**.
 
----
+<br>
 
 ### 4.2 T-Test — VIP vs. Regular Customer Ratings
 
@@ -113,7 +108,7 @@ Both VIP and Regular customers show nearly identical rating distributions, with 
 
 **Business Impact:** Introducing stronger VIP-exclusive benefits — priority dispatch, exclusive deals, dedicated support — could improve VIP retention by **5–8%** and create a measurable satisfaction gap.
 
----
+<br>
 
 ## 5. Correlation & Ratings Analysis
 
@@ -123,7 +118,7 @@ Both VIP and Regular customers show nearly identical rating distributions, with 
 
 The scatter plots reveal a clear downward trend between Delivery Time and Customer Rating, while Order Value shows no directional pattern against ratings. The Discount % vs. Rating plot shows extremely sparse, irregular distribution with no linear relationship, confirming that financial incentives do not drive satisfaction.
 
----
+<br>
 
 ### 5.2 Correlation Heatmap — Core Variables
 
@@ -139,7 +134,7 @@ The scatter plots reveal a clear downward trend between Delivery Time and Custom
 
 **Business Impact:** Faster delivery through route optimization can improve satisfaction scores and increase repeat orders by **8–12%**.
 
----
+<br>
 
 ### 5.3 Multiple Correlation — Restaurant Rating Predictors
 
@@ -149,7 +144,7 @@ Restaurant Rating shows near-zero correlation with all financial and operational
 
 **Business Impact:** Since ratings are driven by food quality and service — not discounts — shifting budget toward quality audits and packaging improvements can lower complaint rates by **4–7%**.
 
----
+<br>
 
 ### 5.4 Correlation Analysis — Restaurant Rating Scatter
 
@@ -157,7 +152,7 @@ Restaurant Rating shows near-zero correlation with all financial and operational
 
 The scatter plots confirm that Order Value, Delivery Time, and Discount % all show diffuse, uncorrelated distributions against Restaurant Rating. There is no concentration of higher ratings at any particular price point or delivery speed, reinforcing that **intrinsic food and service quality** are the dominant rating factors.
 
----
+<br>
 
 ## 6. Temporal Performance Analysis
 
@@ -167,7 +162,7 @@ A paired t-test (p < 0.05) confirmed that **weekday delivery times are consisten
 
 **Business Impact:** Optimizing rider allocation during weekday peak hours can reduce average delivery time by **8–12%**. Early-order incentives can shift demand away from peak windows, reducing operational strain by **4–6%**.
 
----
+<br>
 
 ### 6.2 Before & After Promotional Campaign
 
@@ -175,7 +170,7 @@ A paired t-test comparing Week 1 (pre-campaign) vs. Week 3 (post-campaign) order
 
 **Business Impact:** Repeating this campaign model monthly can increase average revenue per order by **8–12%**. Targeting low-frequency customers with recurring offers can increase repeat purchase rates by **5–7%**.
 
----
+<br>
 
 ## 7. Strategic Recommendations
 
@@ -192,7 +187,7 @@ A paired t-test comparing Week 1 (pre-campaign) vs. Week 3 (post-campaign) order
 | Create restaurant performance scorecards for partners | 🟡 Medium | Long-term | Better vendor management, service consistency |
 | Shift from blanket discounts to loyalty bundles | 🟡 Medium | Long-term | Improve profitability, maintain repeat orders |
 
----
+<br>
 
 ## 8. Expected Outcomes
 
@@ -206,34 +201,20 @@ If implemented, FoodExpress may achieve:
 - ✅ Better restaurant performance consistency
 - ✅ Higher monthly platform revenue
 
----
+<br>
 
 ## 9. Risk & Limitations
+- Analysis is based on only one month of data and excludes external factors like traffic, weather, and events.  
+- Customer ratings are subjective, and statistical relationships do not always indicate causation.  
+- Future improvements include using 6+ months of data, adding operational variables, and applying predictive forecasting models.
 
-### Key Limitations
-- Analysis uses only **one month** of data — long-term trends may not be fully captured
-- External factors (traffic, weather, public events) were not included in the model
-- Customer ratings are subjective and may not always reflect true service quality
-- Statistical tests reveal relationships, not guaranteed cause-and-effect
 
-### Risks
-- Seasonal demand patterns may significantly shift results
-- VIP-heavy order volume may bias customer-level insights
-- Promotional effects may diminish over time
-- Zone-level analysis may miss granular local bottlenecks
-
-### Suggested Improvements
-- Use **6+ months** of data for trend analysis
-- Incorporate traffic and weather variables
-- Include restaurant preparation time metrics
-- Apply predictive forecasting models
-
----
+<br>
 
 ## 10. Conclusions
 
 The FoodExpress analysis conclusively shows that **delivery speed is the primary lever for customer satisfaction and retention** (r = −0.46). VIP customers drive the majority of orders but experience no meaningfully better service than regular users, signaling an urgent need to strengthen premium membership benefits. Promotional campaigns proved effective as short-term revenue boosters, and geographic delivery performance gaps highlight the need for smarter routing and staffing in underperforming zones. Prioritizing delivery reliability, enhancing loyalty programs, and expanding targeted promotions represent the highest-impact path to sustainable platform growth.
 
----
-
+<br>
+<br>
 *Report prepared by Sakib Ahmed | FoodExpress Statistical Analysis*
