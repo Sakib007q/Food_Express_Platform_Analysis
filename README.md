@@ -172,7 +172,10 @@ A paired t-test comparing Week 1 (pre-campaign) vs. Week 3 (post-campaign) order
 
 <br>
 
-## 7. Strategic Recommendations
+## 7. Sample Dashboard
+![Sample Dashboard](FoodExpress_Dashboard.png)
+
+## 8. Strategic Recommendations
 
 | Recommendation | Priority | Timeline | Expected Impact |
 |---|---|---|---|
@@ -189,7 +192,7 @@ A paired t-test comparing Week 1 (pre-campaign) vs. Week 3 (post-campaign) order
 
 <br>
 
-## 8. Expected Outcomes
+## 9. Expected Outcomes
 
 If implemented, FoodExpress may achieve:
 
@@ -203,7 +206,7 @@ If implemented, FoodExpress may achieve:
 
 <br>
 
-## 9. Risk & Limitations
+## 10. Risk & Limitations
 - Analysis is based on only one month of data and excludes external factors like traffic, weather, and events.  
 - Customer ratings are subjective, and statistical relationships do not always indicate causation.  
 - Future improvements include using 6+ months of data, adding operational variables, and applying predictive forecasting models.
@@ -211,7 +214,7 @@ If implemented, FoodExpress may achieve:
 
 <br>
 
-## 10. Conclusions
+## 11. Conclusions
 
 The FoodExpress analysis conclusively shows that **delivery speed is the primary lever for customer satisfaction and retention** (r = −0.46). VIP customers drive the majority of orders but experience no meaningfully better service than regular users, signaling an urgent need to strengthen premium membership benefits. Promotional campaigns proved effective as short-term revenue boosters, and geographic delivery performance gaps highlight the need for smarter routing and staffing in underperforming zones. Prioritizing delivery reliability, enhancing loyalty programs, and expanding targeted promotions represent the highest-impact path to sustainable platform growth.
 
