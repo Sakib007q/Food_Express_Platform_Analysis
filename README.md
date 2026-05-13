@@ -5,7 +5,7 @@
 ## Platform at a Glance
  
 ```
-🍽️  8 Cuisine Types        ⏱️  42.7 min Avg Delivery       👑  52.7% VIP Share        💰  26,961 Net Revenue
+🍽️ 8 Cuisine Types      ⏱️ 42.7 min Avg Delivery     👑 52.7% VIP Share      💰 26,961 Net Revenue
 ```
  
 ---
